@@ -17,5 +17,9 @@ object Master extends Actor
             sender ! MessgPackage.MessgSuccessPackage;
             println(WorkerMap);
         }
+        case MessgPackage.WorkerHeart(id,cpu,mem) =>{
+            WorkerMap(sender) = WorkerInfo(id,cpu,mem,new Date().getTime)
+            println(s"收到心跳消息:${sender}");
+        }
     }
 }

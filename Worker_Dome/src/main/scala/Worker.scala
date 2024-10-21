@@ -1,6 +1,8 @@
 import akka.actor.{Actor, ActorSelection}
 
+import java.lang.invoke.MethodHandles.loop
 import java.util.UUID
+
 import scala.util.Random
 
 object Worker extends Actor
@@ -32,10 +34,18 @@ object Worker extends Actor
         MasterActorRef ! WorkerInfo;
     }
 
+//    private var hand = false;
     override def receive: Receive =
     {
         case MessgPackage.MessgSuccessPackage =>{
             println("Worker已经注册成功");
+//            hand = true;
+            import scala.concurrent.duration._
+            import context.dispatcher
+            import scala.language.postfixOps
+            context.system.scheduler.schedule(0 seconds,ConfigUtils.`worker.heartbeat.interval` seconds)(
+                MasterActorRef ! MessgPackage.WorkerHeart(WorkerID,cpu, mem)
+            );
         }
     }
 }

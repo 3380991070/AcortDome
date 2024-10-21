@@ -1,6 +1,8 @@
 import akka.actor.{ActorSystem, Props}
 import com.typesafe.config.ConfigFactory
 
+import java.io.File
+
 object Worker_Main
 {
     //akka://ActorSystem@127.0.0.1:7668
