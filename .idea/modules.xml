@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AcortDome.iml" filepath="$PROJECT_DIR$/.idea/modules/AcortDome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AcortDome.AcortDome-build.iml" filepath="$PROJECT_DIR$/.idea/modules/AcortDome.AcortDome-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AcortDome.Master_Dome.iml" filepath="$PROJECT_DIR$/.idea/modules/AcortDome.Master_Dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AcortDome.Worker_Dome.iml" filepath="$PROJECT_DIR$/.idea/modules/AcortDome.Worker_Dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AcortDome.eum_object.iml" filepath="$PROJECT_DIR$/.idea/modules/AcortDome.eum_object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Master_Dome.iml" filepath="$PROJECT_DIR$/.idea/modules/Master_Dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Master_Dome/.idea/modules/Master_Dome.Master_Dome-build.iml" filepath="$PROJECT_DIR$/Master_Dome/.idea/modules/Master_Dome.Master_Dome-build.iml" />
+    </modules>
+  </component>
+</project>

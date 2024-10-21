@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="AcortDome,AcortDome.Master_Dome,AcortDome.SubModuleA,AcortDome.SubModuleB,AcortDome.Worker_Dome,AcortDome.emu_object,AcortDome.eum_object,Master_Dome,Master_Dome.emuObject,Worker_Dome,Worker_Dome.emuObject,acortdome,emu_object,eum_object" />
+  </component>
+</project>
