@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9994a52-93d7-414a-bf3b-584f595dfbc4" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Worker_Dome/src/main/scala/ConfigUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/ConfigUilt.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/scala/Master.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/Master.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/scala/MasterMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/MasterMain.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Master_Dome/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/target/scala-2.13/classes/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/resources/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker_Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker_Main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$$anonfun$receive$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$.class" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +58,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo.akka.io/maven/com/typesafe/akka/akka-actor_2.13/2.9.6/akka-actor_2.13-2.9.6-sources.jar!/akka/actor/Scheduler.scala" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -88,6 +96,8 @@
     "应用程序.MasterMain (1).executor": "Run",
     "应用程序.MasterMain.executor": "Run",
     "应用程序.Master_Main.executor": "Run",
+    "应用程序.Worker_Main (1).executor": "Run",
+    "应用程序.Worker_Main (2).executor": "Run",
     "应用程序.Worker_Main.executor": "Run"
   }
 }]]></component>
@@ -101,7 +111,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Worker_Main">
+  <component name="RunManager" selected="应用程序.Worker_Main (3)">
     <configuration name="MasterMain (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="MasterMain" />
       <module name="Master_Dome" />
@@ -123,6 +133,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Worker_Main (1)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Worker_Main" />
+      <module name="AcortDome.Worker_Dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Worker_Main (2)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Worker_Main" />
+      <module name="AcortDome.Worker_Dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Worker_Main (3)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Worker_Main" />
+      <module name="AcortDome.Worker_Dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Worker_Main (4)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Worker_Main" />
+      <module name="AcortDome.Worker_Dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Worker_Main (5)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Worker_Main" />
+      <module name="AcortDome.Worker_Dome" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Worker_Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Worker_Main" />
       <module name="AcortDome.Worker_Dome" />
@@ -130,10 +175,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="应用程序.Master_Main" />
+      <item itemvalue="应用程序.MasterMain" />
+      <item itemvalue="应用程序.MasterMain (1)" />
+      <item itemvalue="应用程序.Worker_Main" />
+      <item itemvalue="应用程序.Worker_Main (1)" />
+      <item itemvalue="应用程序.Worker_Main (2)" />
+      <item itemvalue="应用程序.Worker_Main (3)" />
+      <item itemvalue="应用程序.Worker_Main (4)" />
+      <item itemvalue="应用程序.Worker_Main (5)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.Worker_Main" />
         <item itemvalue="应用程序.MasterMain" />
+        <item itemvalue="应用程序.Worker_Main" />
         <item itemvalue="应用程序.MasterMain (1)" />
         <item itemvalue="应用程序.Master_Main" />
       </list>
@@ -160,7 +216,7 @@
       <updated>1729476068137</updated>
       <workItem from="1729476069157" duration="3288000" />
       <workItem from="1729479794597" duration="83000" />
-      <workItem from="1729479884467" duration="11598000" />
+      <workItem from="1729479884467" duration="17304000" />
     </task>
     <servers />
   </component>
