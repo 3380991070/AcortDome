@@ -43,6 +43,9 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -57,6 +60,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
@@ -146,7 +150,7 @@
       <updated>1729476068137</updated>
       <workItem from="1729476069157" duration="3288000" />
       <workItem from="1729479794597" duration="83000" />
-      <workItem from="1729479884467" duration="5805000" />
+      <workItem from="1729479884467" duration="6273000" />
     </task>
     <servers />
   </component>
