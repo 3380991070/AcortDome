@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9994a52-93d7-414a-bf3b-584f595dfbc4" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/ConfigUilt.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/scala/Master.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/Master.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Master_Dome/src/main/scala/MasterMain.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/src/main/scala/MasterMain.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Master_Dome/target/scala-2.13/classes/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Master_Dome/target/scala-2.13/classes/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/resources/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker_Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/src/main/scala/Worker_Main.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$$anonfun$receive$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$$anonfun$receive$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$.class" beforeDir="false" afterPath="$PROJECT_DIR$/Worker_Dome/target/scala-2.13/classes/Worker$.class" afterDir="false" />
-    </list>
+    <list default="true" id="b9994a52-93d7-414a-bf3b-584f595dfbc4" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +86,7 @@
     "应用程序.Master_Main.executor": "Run",
     "应用程序.Worker_Main (1).executor": "Run",
     "应用程序.Worker_Main (2).executor": "Run",
+    "应用程序.Worker_Main (3).executor": "Run",
     "应用程序.Worker_Main.executor": "Run"
   }
 }]]></component>
@@ -216,7 +205,7 @@
       <updated>1729476068137</updated>
       <workItem from="1729476069157" duration="3288000" />
       <workItem from="1729479794597" duration="83000" />
-      <workItem from="1729479884467" duration="17304000" />
+      <workItem from="1729479884467" duration="18164000" />
     </task>
     <servers />
   </component>
